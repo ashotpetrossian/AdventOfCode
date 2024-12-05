@@ -1,11 +1,3 @@
-﻿using System.IO;
-using System.Net.Http.Headers;
-using System.Runtime.ExceptionServices;
-using System.Runtime.InteropServices;
-using System.Runtime.Intrinsics.Arm;
-using System.Transactions;
-using static System.Collections.Specialized.BitVector32;
-
 class Program
 {
     static Dictionary<int, HashSet<int>> graph = new Dictionary<int, HashSet<int>>();
@@ -149,7 +141,6 @@ class Program
 
     static void Main()
     {
-
         string filePath1 = @"C:\Users\Ashot\source\repos\AdventOfCode\Day5\RulesInput.txt";
         string filePath2 = @"C:\Users\Ashot\source\repos\AdventOfCode\Day5\SectionsInput.txt";
         List<string> rules = GetRulesFromInput(filePath1);
