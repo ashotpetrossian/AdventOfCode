@@ -1,2 +1,2 @@
-# AdventOfCode
+# AoC_2024
  
