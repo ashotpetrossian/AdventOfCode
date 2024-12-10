@@ -1,2 +1,2 @@
-# AoC_2024
+# AoC_2024: https://adventofcode.com/
  
